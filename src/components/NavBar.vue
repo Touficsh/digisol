@@ -151,11 +151,6 @@
               </div>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-sm btn-default" href="https://www.creative-tim.com/product/blk-design-system-pro" target="_blank">
-              <p>Buy Now</p>
-            </a>
-          </li>
           <!-- <li class="nav-item">
               <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
                 <i class="fab fa-twitter"></i>

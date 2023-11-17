@@ -20,7 +20,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <main class="presentation-page">
+  <main>
     <NavBar />
     <PageHeader />
     <Features />
