@@ -80,21 +80,19 @@
                 <div class="carousel-item active">
                   <img
                     class="d-block w-100"
-                    src="../assets/img/denys.jpg"
+                    
                     alt="First slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block w-100"
-                    src="../assets/img/fabien-bazanegue.jpg"
                     alt="Second slide"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     class="d-block w-100"
-                    src="../assets/img/mark-finn.jpg"
                     alt="Third slide"
                   />
                 </div>

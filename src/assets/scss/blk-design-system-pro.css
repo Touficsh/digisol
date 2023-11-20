@@ -17,8 +17,6 @@
  */
 /*     brand Colors              */
 /* navbar color */
-
-
 @keyframes move-left-right {
   0% {
     transform: translateX(-10px);
@@ -17791,7 +17789,6 @@ html {
 .reset-page,
 .product-page,
 .presentation-page {
-  background-image: url("../../assets/img/kit/pro/dots.png");
   background-size: contain;
 }
 
