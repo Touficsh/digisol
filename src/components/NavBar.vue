@@ -31,144 +31,47 @@
         </div>
         <ul class="navbar-nav ml-auto">
           <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="fa fa-cogs d-lg-none d-xl-none"></i> Getting started
+            <a 
+              class="nav-link" 
+              data-toggle="dropdown"
+              @click="$emit('scroll', 'PageHeader')"
+            >
+              <i class="tim-icons icon-paper"></i> PageHeader
             </a>
-            <div class="dropdown-menu dropdown-with-icons">
-              <a href="./index.html" class="dropdown-item">
-                <i class="tim-icons icon-paper"></i> Components
-              </a>
-              <a href="./presentation.html" class="dropdown-item">
-                <i class="tim-icons icon-bullet-list-67"></i>Presentation Page
-              </a>
-              <a href="https://demos.creative-tim.com/blk-design-system-pro/docs/1.0/getting-started/overview.html" class="dropdown-item">
-                <i class="tim-icons icon-book-bookmark"></i>Documentation
-              </a>
-            </div>
           </li>
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
-              <i class="tim-icons icon-paper" aria-hidden="true"></i>
-              <p>Sections</p>
+          <li class="nav-item">
+            <a 
+              class="dropdown nav-link" 
+              data-toggle="dropdown"
+              @click="$emit('scroll', 'Features')"
+            >
+              <i class="tim-icons icon-paper"></i> Features
             </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./sections.html#headers">
-                <i class="tim-icons icon-app"></i> Headers
-              </a>
-              <a class="dropdown-item" href="./sections.html#features">
-                <i class="tim-icons icon-settings"></i> Features
-              </a>
-              <a class="dropdown-item" href="./sections.html#blogs">
-                <i class="tim-icons icon-align-left-2"></i> Blogs
-              </a>
-              <a class="dropdown-item" href="./sections.html#teams">
-                <i class="tim-icons icon-user-run"></i> Teams
-              </a>
-              <a class="dropdown-item" href="./sections.html#projects">
-                <i class="tim-icons icon-paper"></i> Projects
-              </a>
-              <a class="dropdown-item" href="./sections.html#pricing">
-                <i class="tim-icons icon-money-coins"></i> Pricing
-              </a>
-              <a class="dropdown-item" href="./sections.html#testimonials">
-                <i class="tim-icons icon-chat-33"></i> Testimonials
-              </a>
-              <a class="dropdown-item" href="./sections.html#contactus">
-                <i class="tim-icons icon-mobile"></i> Contact Us
-              </a>
-              <a class="dropdown-item" href="./sections.html#tables">
-                <i class="tim-icons icon-chart-bar-32"></i> Tables
-              </a>
-              <a class="dropdown-item" href="./sections.html#accordion">
-                <i class="tim-icons icon-paper"></i> Accordion
-              </a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
-              <i class="tim-icons icon-book-bookmark" aria-hidden="true"></i>
-              <p>Examples</p>
+          </li>          <li class="dropdown nav-item">
+            <a 
+              class="nav-link" 
+              data-toggle="dropdown"
+              @click="$emit('scroll', 'Services')"
+            >
+              <i class="tim-icons icon-paper"></i> Services
             </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./examples/about-us.html">
-                <i class="tim-icons icon-bulb-63"></i> About-us
-              </a>
-              <a class="dropdown-item" href="./examples/blog-post.html">
-                <i class="tim-icons icon-align-center"></i> Blog Post
-              </a>
-              <a class="dropdown-item" href="./examples/blog-posts.html">
-                <i class="tim-icons icon-chart-bar-32"></i> Blog Posts
-              </a>
-              <a class="dropdown-item" href="./examples/contact-us.html">
-                <i class="tim-icons icon-square-pin"></i> Contact Us
-              </a>
-              <a class="dropdown-item" href="./examples/landing-page.html">
-                <i class="tim-icons icon-paper"></i> Landing Page
-              </a>
-              <a class="dropdown-item" href="./examples/pricing.html">
-                <i class="tim-icons icon-coins"></i> Pricing
-              </a>
-              <a class="dropdown-item" href="./examples/ecommerce.html">
-                <i class="tim-icons icon-basket-simple"></i> Ecommerce Page
-              </a>
-              <a class="dropdown-item" href="./examples/product-page.html">
-                <i class="tim-icons icon-bag-16"></i> Product Page
-              </a>
-              <a class="dropdown-item" href="./examples/profile-page.html">
-                <i class="tim-icons icon-lock-circle"></i> Profile Page
-              </a>
-              <a class="dropdown-item" href="./examples/error.html">
-                <i class="tim-icons icon-button-power"></i> 404 Error Page
-              </a>
-              <a class="dropdown-item" href="./examples/500-error.html">
-                <i class="tim-icons icon-alert-circle-exc"></i> 500 Error Page
-              </a>
-              <a href="#" class="dropdown-item dropdown-toggle" id="navbarDropdown2" data-toggle="dropdown">
-                <i class="tim-icons icon-book-bookmark" aria-hidden="true"></i> App Pages
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                <a class="dropdown-item" href="./examples/account-settings.html">
-                  <i class="tim-icons icon-lock-circle"></i> Account Settings
-                </a>
-                <a class="dropdown-item" href="./examples/login-page.html">
-                  <i class="tim-icons icon-tablet-2"></i> Login Page
-                </a>
-                <a class="dropdown-item" href="./examples/register-page.html">
-                  <i class="tim-icons icon-laptop"></i> Register Page
-                </a>
-                <a class="dropdown-item" href="./examples/reset-page.html">
-                  <i class="tim-icons icon-molecule-40"></i> Reset Page
-                </a>
-                <a class="dropdown-item" href="./examples/invoice-page.html">
-                  <i class="tim-icons icon-notes"></i> Invoice Page
-                </a>
-                <a class="dropdown-item" href="./examples/checkout-page.html">
-                  <i class="tim-icons icon-basket-simple"></i> Checkout Page
-                </a>
-                <a class="dropdown-item" href="./examples/chat-page.html">
-                  <i class="tim-icons icon-email-85"></i> Chat Page
-                </a>
-              </div>
-            </div>
+          </li>          <li class="dropdown nav-item">
+            <a 
+              class="nav-link" 
+              data-toggle="dropdown"
+              @click="$emit('scroll', 'Pricing')"
+            >
+              <i class="tim-icons icon-paper"></i> Pricing
+            </a>
+          </li>          <li class="dropdown nav-item">
+            <a 
+              class="nav-link" 
+              data-toggle="dropdown"
+              @click="$emit('scroll', 'Projects')"
+            >
+              <i class="tim-icons icon-paper"></i> Projects
+            </a>
           </li>
-          <!-- <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                <i class="fab fa-twitter"></i>
-                <p class="hidden-lg-up">Twitter</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                <i class="fab fa-facebook-square"></i>
-                <p class="hidden-lg-up">Facebook</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                <i class="fab fa-instagram"></i>
-                <p class="hidden-lg-up">Instagram</p>
-              </a>
-            </li> -->
         </ul>
       </div>
     </div>

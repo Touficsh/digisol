@@ -1,3 +1,26 @@
+<template>
+  <main>
+    <div>
+      <NavBar @scroll="scrollToElement" />
+    </div>
+    <div ref="PageHeader">
+      <PageHeader  />
+    </div>
+    <div ref="Features">
+      <Features  />
+    </div>
+    <div ref="Services">
+      <Services  />
+    </div>
+    <div ref="Pricing">
+      <Pricing  />
+    </div>
+    <div ref="Projects">
+      <Projects  />
+    </div>
+  </main>
+</template>
+
 <script>
 import { defineComponent } from 'vue'
 import NavBar from '../components/NavBar.vue'
@@ -15,17 +38,15 @@ export default defineComponent({
    Services,
    Pricing,
    Projects,
- } 
+ },
+ methods: {
+    scrollToElement(value) {
+      const el = this.$refs[value];
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    },
+  },
 })
 </script>
 
-<template>
-  <main>
-    <NavBar />
-    <PageHeader />
-    <Features />
-    <Services />
-    <Pricing />
-    <Projects />
-  </main>
-</template>
