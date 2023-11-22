@@ -41,9 +41,9 @@ export default defineComponent({
  },
  methods: {
     scrollToElement(value) {
-      const el = this.$refs[value];
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
+      const scroll = this.$refs[value];
+      if (scroll) {
+        scroll.scrollIntoView({ behavior: "smooth" });
       }
     },
   },
