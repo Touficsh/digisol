@@ -287,7 +287,7 @@
           <div class="space-100"></div>
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center mt-4">
           <h3 class="title">Interested in our projects?</h3>
           <h4 class="description mb-5">
@@ -296,7 +296,7 @@
           </h4>
           <button class="btn btn-primary btn-lg">Contact us</button>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

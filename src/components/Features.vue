@@ -1,34 +1,44 @@
 <template>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="info info-hover">
             <div class="icon icon-primary">
               <img class="bg-blob" src="../assets/img/feature-blob/primary.png">
-              <i class="tim-icons icon-user-run"></i>
+              <i class="tim-icons icon-app"></i>
             </div>
-            <h2 class="info-title">Huge number of components</h2>
-            <h4 class="description">Every element that you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in colour.</h4>
+            <h3 class="info-title">Development</h3>
+            <h4 class="description">Unlock the potential of your ideas with our expert application and mobile development services. From concept to launch, our skilled team crafts innovative and user-friendly solutions that elevate your brand and engage your audience seamlessly.</h4>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="info info-hover" style="margin-top:-50px;">
+        <div class="col-md-3">
+          <div class="info info-hover">
             <div class="icon icon-warning">
               <img class="bg-blob" src="../assets/img/feature-blob/warning.png">
-              <i class="tim-icons icon-atom"></i>
+              <i class="tim-icons icon-coins"></i>
             </div>
-            <h2 class="info-title">Multi-Purpose Sections</h2>
-            <h4 class="description">Putting together a page has never been easier than matching together sections. From team presentation to pricing options, you can easily customise and built your pages.</h4>
+            <h3 class="info-title">Hosting</h3>
+            <h4 class="description">Elevate your online presence with our reliable hosting services. Experience seamless performance, enhanced security, and support to ensure your website or application is always accessible and ready to make a lasting impression.</h4>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
+          <div class="info info-hover">
+            <div class="icon icon-danger">
+              <img class="bg-blob" src="../assets/img/feature-blob/danger.png">
+              <i class="tim-icons icon-palette"></i>
+            </div>
+            <h3 class="info-title">UI/UX Design</h3>
+            <h4 class="description">Immerse your audience in a visually stunning and intuitive digital experience with our UI/UX design expertise. We blend creativity with functionality to deliver designs that not only captivate but also enhance user satisfaction.</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
           <div class="info info-hover">
             <div class="icon icon-success">
               <img class="bg-blob" src="../assets/img/feature-blob/success.png">
-              <i class="tim-icons icon-gift-2"></i>
+              <i class="tim-icons icon-world"></i>
             </div>
-            <h2 class="info-title">Multiple Example Pages</h2>
-            <p class="description">If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages.</p>
+            <h3 class="info-title">Marketing & Advertising</h3>
+            <h4 class="description">Propel your brand to new heights with our dynamic marketing and advertising solutions. From targeted campaigns to social media strategies, we specialize in amplifying your online presence, and driving engagement.</h4>
           </div>
         </div>
       </div>

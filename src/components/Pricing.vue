@@ -4,8 +4,8 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-6 ml-auto mr-auto text-center">
-                  <h2 class="title">Pick the best plan for you</h2>
-                  <h4 class="description">You have Free Unlimited Updates and Premium Support on each package.</h4>
+                  <h2 class="title">Pick the best plan hosting plan for you</h2>
+                  <!-- <h4 class="description">You have Free Unlimited Updates and Premium Support on each package.</h4> -->
                   <div class="section-space"></div>
                 </div>
               </div>

@@ -3,8 +3,8 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-3 col-md-8 mr-auto text-left">
-              <h1 class="title">You should be here!</h1>
-              <p class="description">5,000 capacity venue, holding some of the latest technology lighting with a 24 colour laser system Amnesia is one of the islands most legendary clubs.</p>
+              <h1 class="title">Features of our services</h1>
+              <p class="description">.</p>
               <a class="btn btn-info btn-simple" href="javascript:;">
                 Learn more <i class="tim-icons icon-alert-circle-exc"></i>
               </a>
@@ -16,7 +16,7 @@
                     <div class="icon icon-white">
                       <i class="tim-icons icon-satisfied"></i>
                     </div>
-                    <h4 class="info-title">Best Quality</h4>
+                    <h4 class="info-title">Pricing</h4>
                     <p class="description">Gain access to the demographics, psychographics, and location of unique people.</p>
                   </div>
                 </div>
