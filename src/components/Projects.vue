@@ -69,59 +69,19 @@
         >
           <div class="col-lg-12 mt-5">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-              <h2 class="">Orenda Clinic</h2>
+              <h2 class="">Treetz</h2>
               <div class="section-space"></div>
             </div>
-            <div
-              id="carouselExampleControls"
-              class="carousel slide"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    class="d-block w-100"
-                    alt="First slide"
-                    src="../assets/img/projects/orenda_1.png"                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    alt="Second slide"
-                    src="../assets/img/projects/orenda_1.png"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    alt="Third slide"
-                    src="../assets/img/projects/orenda_1.png"
-                  />
+            <div class="row mt-5">
+              <div class="col-md-12">
+                <div class="card card-blog">
+                  <div class="card-body text-left">
+                    <div class="card-footer mt-0">
+                      <img src="../assets/img/projects/Treetz.jpg" />
+                    </div>
+                  </div>
                 </div>
               </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExampleControls"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExampleControls"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
         </div>
@@ -131,37 +91,40 @@
         >
           <div class="space-100"></div>
           <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div class="tab-pane active" id="project2">
-                  <div class="row mt-5">
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/961_1.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/961_2.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/961_3.webp"/>
-                          </div>
-                        </div>
+            <div
+              class="tab-pane active"
+              id="project2"
+            >
+              <div class="row mt-5">
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/961_1.webp" />
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/961_2.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/961_3.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="space-100"></div>
         </div>
@@ -171,37 +134,40 @@
         >
           <div class="space-100"></div>
           <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div class="tab-pane active" id="project3">
-                  <div class="row mt-5">
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/avenues_1.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/avenues_2.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/avenues_3.webp"/>
-                          </div>
-                        </div>
+            <div
+              class="tab-pane active"
+              id="project3"
+            >
+              <div class="row mt-5">
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/avenues_1.webp" />
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/avenues_2.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/avenues_3.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="space-100"></div>
         </div>
@@ -210,39 +176,42 @@
           id="project4"
         >
           <div class="space-100"></div>
-          
+
           <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div class="tab-pane active" id="project4">
-                  <div class="row mt-5">
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/treetz_1.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/treetz_2.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/treetz_3.webp"/>
-                          </div>
-                        </div>
+            <div
+              class="tab-pane active"
+              id="project4"
+            >
+              <div class="row mt-5">
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/treetz_1.webp" />
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/treetz_2.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/treetz_3.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="space-100"></div>
         </div>
@@ -252,37 +221,40 @@
         >
           <div class="space-100"></div>
           <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div class="tab-pane active" id="project5">
-                  <div class="row mt-5">
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/mbc_1.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/mbc_2.webp"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card card-blog">
-                        <div class="card-body text-left">
-                          <div class="card-footer mt-0">
-                            <img src="../assets/img/projects/mbc_3.webp"/>
-                          </div>
-                        </div>
+            <div
+              class="tab-pane active"
+              id="project5"
+            >
+              <div class="row mt-5">
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/mbc_1.webp" />
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/mbc_2.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card card-blog">
+                    <div class="card-body text-left">
+                      <div class="card-footer mt-0">
+                        <img src="../assets/img/projects/mbc_3.webp" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="space-100"></div>
         </div>

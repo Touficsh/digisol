@@ -9,9 +9,9 @@
     <div ref="Features">
       <Features  />
     </div>
-    <div ref="Services">
+    <!-- <div ref="Services">
       <Services  />
-    </div>
+    </div> -->
     <div ref="Pricing">
       <Pricing  />
     </div>

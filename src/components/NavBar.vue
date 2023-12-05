@@ -14,7 +14,11 @@
             data-placement="bottom"
             target="_blank"
           >
-            <span>DIGISOL</span>
+          <img 
+            src="../assets/img/digisol-white.png"
+            style="height: 50px; width: fit-content;"
+            />
+            
           </a>
           <button
             class="navbar-toggler"
@@ -58,7 +62,7 @@
             </div>
           </div>
           <ul class="navbar-nav ml-auto">
-            <li class="dropdown nav-item">
+            <!-- <li class="dropdown nav-item">
               <a
                 class="nav-link"
                 data-toggle="dropdown"
@@ -66,17 +70,18 @@
               >
                 <i class="tim-icons icon-paper"></i> PageHeader
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a
                 class="dropdown nav-link"
                 data-toggle="dropdown"
                 @click="$emit('scroll', 'Features')"
               >
-                <i class="tim-icons icon-paper"></i> Features
+                <!-- <i class="tim-icons icon-paper"></i>  -->
+                <span class="nav-text">Services</span>
               </a>
             </li>
-            <li class="dropdown nav-item">
+            <!-- <li class="dropdown nav-item">
               <a
                 class="nav-link"
                 data-toggle="dropdown"
@@ -84,14 +89,15 @@
               >
                 <i class="tim-icons icon-paper"></i> Services
               </a>
-            </li>
+            </li> -->
             <li class="dropdown nav-item">
               <a
                 class="nav-link"
                 data-toggle="dropdown"
                 @click="$emit('scroll', 'Pricing')"
               >
-                <i class="tim-icons icon-paper"></i> Pricing
+                <!-- <i class="tim-icons icon-paper"></i>  -->
+                <span class="nav-text">Pricing</span>
               </a>
             </li>
             <li class="dropdown nav-item">
@@ -100,17 +106,19 @@
                 data-toggle="dropdown"
                 @click="$emit('scroll', 'Projects')"
               >
-                <i class="tim-icons icon-paper"></i> Projects
+                <!-- <i class="tim-icons icon-paper"></i>  -->
+                <span class="nav-text">Projects</span>
               </a>
             </li>
             <li class="dropdown nav-item">
               <a
                 class="nav-link"
                 data-toggle="dropdown"
-                @click="$emit('scroll', 'ContactUs')"
+                @click="$emit('scroll', 'Contact-us')"
               >
-                <i class="tim-icons icon-paper"></i> Contact Us
-              </a>
+                <!-- <i class="tim-icons icon-paper"></i>  -->
+                <span class="nav-text">Contact Us</span>
+            </a>
             </li>
           </ul>
         </div>
@@ -118,3 +126,19 @@
     </nav>
   </section>
 </template>
+
+
+<style lang="scss" scoped>
+
+.nav-text {
+  font-size: medium !important;
+  font-weight: bold;
+}
+
+.nav-button {
+  background-color: magenta ;
+  border-radius: 3rem;
+  box-shadow: none;
+  border: none;
+}
+</style>
