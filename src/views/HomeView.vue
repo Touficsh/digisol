@@ -21,6 +21,9 @@
     <div ref="Contact-us">
       <ContactUs  />
     </div>
+    <div>
+      <Footer  />
+    </div>
   </main>
 </template>
 
@@ -33,6 +36,7 @@ import Services from '../components/Services.vue'
 import Pricing from '../components/Pricing.vue'
 import Projects from '../components/Projects.vue'
 import ContactUs from '../components/ContactUs.vue'
+import Footer from '../components/Footer.vue'
 
 export default defineComponent({
  components: {
@@ -42,7 +46,8 @@ export default defineComponent({
    Services,
    Pricing,
    Projects,
-   ContactUs
+   ContactUs,
+   Footer
  },
  methods: {
     scrollToElement(value) {

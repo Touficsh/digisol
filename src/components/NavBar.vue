@@ -2,6 +2,7 @@
   <section>
     <nav
       class="navbar navbar-expand-lg fixed-top navbar-transparent"
+      :class="{ 'scrolled': isScrolled }"
       color-on-scroll="300"
     >
       <div class="container">
@@ -127,9 +128,35 @@
   </section>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      isScrolled: false
+    };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      this.isScrolled = window.scrollY > 50;
+    }
+  }
+};
+</script>
+
 
 <style lang="scss" scoped>
-
+.scrolled {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  background-color: #1f2251 !important;
+  // background-image: linear-gradient(to bottom left,#4c4c9b, #181833, ) !important;
+}
 .nav-text {
   font-size: medium !important;
   font-weight: bold;
