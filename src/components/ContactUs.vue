@@ -2,20 +2,7 @@
     <div>
     </div>
     <div class="contact-page  container-fluid">
-      <div class="row mt-5 mb-4 pt-5">
-        <div class="col-md-8 ml-auto mr-auto text-center mt-5">
-          <span class="badge badge-info">Leave a message</span>
-          <h1 class="title">
-            Tell us more about
-            <b>yourself</b>
-          </h1>
-          <h4 class="desc">
-            Whether you have questions or you would just like to say hello,
-            contact us.
-          </h4>
-        </div>
-      </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-10 mx-auto">
           <form
             role="form"
@@ -45,7 +32,7 @@
                     />
                   </div>
                 </div>
-                <!-- <div class="col-md-6">
+                <div class="col-md-6">
                   <div class="form-group">
                     <label>Last name</label>
                     <div class="input-group">
@@ -65,7 +52,7 @@
                       />
                     </div>
                   </div>
-                </div> -->
+                </div>
               </div>
               <div class="form-group">
                 <label>Email address</label>
@@ -108,7 +95,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
       <div class="contactus-1 section-image" style="background-image: url('assets/img/contact1.jpg')">
             <div class="container">
               <div class="row">

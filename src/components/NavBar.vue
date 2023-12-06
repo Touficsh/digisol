@@ -154,7 +154,7 @@ export default {
 .scrolled {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
-  background-color: #1f2251 !important;
+  background-color: #171941 !important;
   // background-image: linear-gradient(to bottom left,#4c4c9b, #181833, ) !important;
 }
 .nav-text {

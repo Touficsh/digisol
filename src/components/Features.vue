@@ -1,5 +1,6 @@
 <template>
-    <div class="container">
+    <div class="container mt-4">
+      <div class="services-title">What to do we offer</div>
       <div class="row">
         <div class="col-md-3">
           <div class="info info-hover">
@@ -44,3 +45,18 @@
       </div>
     </div>
 </template>
+
+<style lang="scss" scoped>
+  .services-title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+</style>

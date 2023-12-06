@@ -16,6 +16,6 @@ onMounted(() => {
   // Simulate loading time
   setTimeout(() => {
     loading.value = false;
-  }, 4000); // Adjust the time based on your animation duration
+  }, 2000); // Adjust the time based on your animation duration
 });
 </script>
