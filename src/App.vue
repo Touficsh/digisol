@@ -13,6 +13,7 @@ import AnimatedSvg from './components/animation/AnimatedSvg.vue';
 const loading = ref(true);
 
 onMounted(() => {
+  initSnowify();
   // Simulate loading time
   setTimeout(() => {
     loading.value = false;

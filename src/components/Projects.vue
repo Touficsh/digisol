@@ -67,17 +67,17 @@
           class="tab-pane active"
           id="project1"
         >
-          <div class="col-lg-12 mt-5">
+          <div class="col-lg-12 mt-2">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
               <h2 class="">Treetz</h2>
               <div class="section-space"></div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-2">
               <div class="col-md-12">
                 <div class="card card-blog">
                   <div class="card-body text-left">
                     <div class="card-footer mt-0">
-                      <img src="../assets/img/projects/Treetz.jpg" />
+                      <img src="../assets/img/projects/961.jpg" />
                     </div>
                   </div>
                 </div>
@@ -89,84 +89,51 @@
           class="tab-pane"
           id="project2"
         >
-          <div class="space-100"></div>
-          <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div
-              class="tab-pane active"
-              id="project2"
-            >
-              <div class="row mt-5">
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/961_1.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/961_2.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/961_3.webp" />
-                      </div>
+        <div class="col-lg-12 mt-2">
+            <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
+              <h2 class="">Treetz</h2>
+              <div class="section-space"></div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-md-12">
+                <div class="card card-blog">
+                  <div class="card-body text-left">
+                    <div class="card-footer mt-0">
+                      <img src="../assets/img/projects/orenda_clinic.jpg" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="space-100"></div>
         </div>
         <div
           class="tab-pane"
           id="project3"
         >
-          <div class="space-100"></div>
-          <div class="col-md-12 ml-auto mr-auto text-center mt-4">
+        
+        <div class="col-md-12 ml-auto mr-auto text-center mt-4">
             <div
               class="tab-pane active"
               id="project3"
             >
-              <div class="row mt-5">
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/avenues_1.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/avenues_2.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/avenues_3.webp" />
-                      </div>
+            <div class="col-lg-12 mt-2">
+            <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
+              <h2 class="">Treetz</h2>
+              <div class="section-space"></div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-md-12">
+                <div class="card card-blog">
+                  <div class="card-body text-left">
+                    <div class="card-footer mt-0">
+                      <img src="../assets/img/projects/avenues.jpg" />
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
             </div>
           </div>
           <div class="space-100"></div>
@@ -175,88 +142,45 @@
           class="tab-pane"
           id="project4"
         >
-          <div class="space-100"></div>
-
-          <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div
-              class="tab-pane active"
-              id="project4"
-            >
-              <div class="row mt-5">
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/treetz_1.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/treetz_2.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/treetz_3.webp" />
-                      </div>
+        <div class="col-lg-12 mt-2">
+            <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
+              <h2 class="">Treetz</h2>
+              <div class="section-space"></div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-md-12">
+                <div class="card card-blog">
+                  <div class="card-body text-left">
+                    <div class="card-footer mt-0">
+                      <img src="../assets/img/projects/sodetel.jpg" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="space-100"></div>
         </div>
         <div
           class="tab-pane"
           id="project5"
         >
-          <div class="space-100"></div>
-          <div class="col-md-12 ml-auto mr-auto text-center mt-4">
-            <div
-              class="tab-pane active"
-              id="project5"
-            >
-              <div class="row mt-5">
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/mbc_1.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/mbc_2.webp" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card card-blog">
-                    <div class="card-body text-left">
-                      <div class="card-footer mt-0">
-                        <img src="../assets/img/projects/mbc_3.webp" />
-                      </div>
+        <div class="col-lg-12 mt-2">
+            <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
+              <h2 class="">Treetz</h2>
+              <div class="section-space"></div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-md-12">
+                <div class="card card-blog">
+                  <div class="card-body text-left">
+                    <div class="card-footer mt-0">
+                      <img src="../assets/img/projects/Treetz.jpg" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="space-100"></div>
         </div>
       </div>
       <!-- <div class="row">
