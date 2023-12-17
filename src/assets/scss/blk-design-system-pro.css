@@ -22409,7 +22409,27 @@ select.selectpicker {
 }
 
 .card-blog {
-  min-height: 550px;
+  min-height: 150px;
+}
+@media (min-width: 576px) {
+  .card-blog {
+    min-height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .card-blog {
+    min-height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .card-blog {
+    min-height: 300px;
+  }
+}
+@media (min-width: 1200) {
+  .card-blog {
+    min-height: 350px;
+  }
 }
 .card-blog .card-image {
   height: 380px;

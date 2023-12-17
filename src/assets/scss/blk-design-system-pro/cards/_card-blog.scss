@@ -1,5 +1,20 @@
 .card-blog {
-  min-height: 550px;
+  min-height: 150px; // Default height for small screens
+
+  @media (min-width: 576px) {
+    min-height: 200px; // Adjust height for medium screens
+  }
+
+  @media (min-width: 768px) {
+    min-height: 250px; // Adjust height for large screens
+  }
+
+  @media (min-width: 992px) {
+    min-height: 300px; // Adjust height for extra-large screens
+  }
+  @media (min-width: 1200) {
+    min-height: 350px; // Adjust height for extra-large screens
+  }
   
   .card-image {
     height: $card-background-height-sm;

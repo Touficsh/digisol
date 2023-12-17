@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <RouterView v-if="!loading" />
-    <AnimatedSvg v-if="loading" />
-  </div>
+    <transition :name="transitionName" mode="out-in">
+      <RouterView v-if="!loading" />
+    </transition>
+    <transition name="fade">
+      <AnimatedSvg v-if="loading" />
+    </transition>
 </template>
 
 <script setup>
@@ -17,6 +19,6 @@ onMounted(() => {
   // Simulate loading time
   setTimeout(() => {
     loading.value = false;
-  }, 2000); // Adjust the time based on your animation duration
+  }, 3500); // Adjust the time based on your animation duration
 });
 </script>

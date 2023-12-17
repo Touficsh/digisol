@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-lg-5 col-md-7 mr-auto text-left mt-5">
               <h1 class="title">
-                You can build awesome project with this Design System!
+                You can build awesome project with us from an e-commerce site up to any customized system!
               </h1>
               <br />
             </div>

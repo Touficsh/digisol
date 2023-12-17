@@ -1,11 +1,10 @@
 <!-- AnimatedSVG.vue -->
 <template>
-  <div class="d-flex align-items-center justify-content-center animation">
-    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-      <!-- Your SVG content here -->
-      <circle cx="100" cy="100" r="60" stroke="black" stroke-width="3" fill="red" class="animated-circle"></circle>
-    </svg>
-  </div>
+    <div class="d-flex justify-center align-center abc">
+      <transition name="fade">
+        <img class="responsive-gif" src="../../assets/img/digisol.webp" alt="Entrance GIF">
+      </transition>
+    </div>
 </template>
 
 <script>
@@ -29,11 +28,22 @@ export default {
     transform: translateY(-15px);
   }
 }
-
-.animation {
+.abc {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
 }
-.animated-circle {
-  animation: bounce 2s infinite;
+.responsive-gif {
+  margin: auto !important;
+  height: max-content !important;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 </style>

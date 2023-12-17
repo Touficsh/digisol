@@ -13,7 +13,7 @@
       <Services  />
     </div> -->
     <div ref="Pricing">
-      <Pricing  />
+      <Pricing @scroll="scrollToElement" />
     </div>
     <div ref="Projects">
       <Projects  />

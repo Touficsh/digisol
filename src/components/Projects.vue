@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-          <h2 class="title">Some of Our Products</h2>
+          <h2 class="title">Some of Our Projects</h2>
           <div class="section-space"></div>
         </div>
       </div>
@@ -18,7 +18,8 @@
             href="#project1"
             role="tablist"
           >
-            <i class="tim-icons icon-spaceship"></i> Project 1
+            <i class="tim-icons icon-bag-16"></i>
+             961 Home
           </a>
         </li>
         <li class="nav-item m-auto">
@@ -28,7 +29,7 @@
             href="#project2"
             role="tablist"
           >
-            <i class="tim-icons icon-bag-16"></i> Project 2
+            <i class="tim-icons icon-puzzle-10"></i> Orenda Clinic
           </a>
         </li>
         <li class="nav-item m-auto">
@@ -38,7 +39,7 @@
             href="#project3"
             role="tablist"
           >
-            <i class="tim-icons icon-light-3"></i> Project 3
+            <i class="tim-icons icon-components"></i> The avenues
           </a>
         </li>
         <li class="nav-item m-auto">
@@ -48,7 +49,7 @@
             href="#project4"
             role="tablist"
           >
-            <i class="tim-icons icon-molecule-40"></i> Project 4
+            <i class="tim-icons icon-wifi"></i> Sodetel
           </a>
         </li>
         <li class="nav-item mx-auto">
@@ -58,7 +59,7 @@
             href="#project5"
             role="tablist"
           >
-            <i class="tim-icons icon-planet"></i> Project 5
+            <i class="tim-icons icon-mobile"></i> Treetz
           </a>
         </li>
       </ul>
@@ -69,15 +70,15 @@
         >
           <div class="col-lg-12 mt-2">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-              <h2 class="">Treetz</h2>
-              <div class="section-space"></div>
+              <!-- <h2 class="">Treetz</h2>
+              <div class="section-space"></div> -->
             </div>
             <div class="row mt-2">
               <div class="col-md-12">
                 <div class="card card-blog">
                   <div class="card-body text-left">
                     <div class="card-footer mt-0">
-                      <img src="../assets/img/projects/961.jpg" />
+                      <img class="abc"  src="../assets/img/projects/961.jpg" />
                     </div>
                   </div>
                 </div>
@@ -91,15 +92,13 @@
         >
         <div class="col-lg-12 mt-2">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-              <h2 class="">Treetz</h2>
-              <div class="section-space"></div>
             </div>
             <div class="row mt-2">
               <div class="col-md-12">
                 <div class="card card-blog">
                   <div class="card-body text-left">
                     <div class="card-footer mt-0">
-                      <img src="../assets/img/projects/orenda_clinic.jpg" />
+                      <img class="abc" src="../assets/img/projects/orenda_clinic.jpg" />
                     </div>
                   </div>
                 </div>
@@ -119,15 +118,15 @@
             >
             <div class="col-lg-12 mt-2">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-              <h2 class="">Treetz</h2>
-              <div class="section-space"></div>
+              <!-- <h2 class="">Treetz</h2>
+              <div class="section-space"></div> -->
             </div>
             <div class="row mt-2">
               <div class="col-md-12">
                 <div class="card card-blog">
                   <div class="card-body text-left">
                     <div class="card-footer mt-0">
-                      <img src="../assets/img/projects/avenues.jpg" />
+                      <img class="abc" src="../assets/img/projects/avenues.jpg" />
                     </div>
                   </div>
                 </div>
@@ -144,15 +143,15 @@
         >
         <div class="col-lg-12 mt-2">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-              <h2 class="">Treetz</h2>
-              <div class="section-space"></div>
+              <!-- <h2 class="">Treetz</h2>
+              <div class="section-space"></div> -->
             </div>
             <div class="row mt-2">
               <div class="col-md-12">
                 <div class="card card-blog">
                   <div class="card-body text-left">
                     <div class="card-footer mt-0">
-                      <img src="../assets/img/projects/sodetel.jpg" />
+                      <img class="abc" src="../assets/img/projects/sodetel.jpg" />
                     </div>
                   </div>
                 </div>
@@ -166,15 +165,15 @@
         >
         <div class="col-lg-12 mt-2">
             <div class="col-lg-8 ml-auto mr-auto text-center mb-5">
-              <h2 class="">Treetz</h2>
-              <div class="section-space"></div>
+              <!-- <h2 class="">Treetz</h2>
+              <div class="section-space"></div> -->
             </div>
             <div class="row mt-2">
               <div class="col-md-12">
                 <div class="card card-blog">
                   <div class="card-body text-left">
                     <div class="card-footer mt-0">
-                      <img src="../assets/img/projects/Treetz.jpg" />
+                      <img class="abc" src="../assets/img/projects/Treetz.jpg" />
                     </div>
                   </div>
                 </div>
@@ -196,3 +195,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.abc {
+  min-height: 200px !important;
+}
+</style>

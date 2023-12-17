@@ -9,9 +9,7 @@
         <div class="navbar-translate">
           <a
             class="navbar-brand"
-            href="https://demos.creative-tim.com/blk-design-system-pro/index.html"
             rel="tooltip"
-            title="Designed and Coded by Creative Tim"
             data-placement="bottom"
             target="_blank"
           >

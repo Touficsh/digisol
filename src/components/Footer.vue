@@ -2,43 +2,21 @@
   <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-9">
-          <div class="title">
+        <div class="col-md-6">
+          <div class="title abc">
             <img
               src="../assets/img/digisol-white.png"
               style="height: 50px; width: fit-content"
             />
           </div>
         </div>
-        <div class="col-md-3 btn-wrapper profile text-center footer_icons">
-          <span class="footer_wording">Follow us:</span>
-          <a
-            target="_blank"
-            href="https://twitter.com/creativetim"
-            class="btn btn-icon btn-neutral btn-round btn-simple"
-            data-toggle="tooltip"
-            data-original-title="Follow us"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a
-            target="_blank"
-            href="https://www.facebook.com/creativetim"
-            class="btn btn-icon btn-neutral btn-round btn-simple"
-            data-toggle="tooltip"
-            data-original-title="Like us"
-          >
-            <i class="fab fa-facebook-square"></i>
-          </a>
-          <a
-            target="_blank"
-            href="https://dribbble.com/creativetim"
-            class="btn btn-icon btn-neutral btn-round btn-simple"
-            data-toggle="tooltip"
-            data-original-title="Follow us"
-          >
-            <i class="fab fa-dribbble"></i>
-          </a>
+        <div class="col-md-6 title abc">
+          <!-- <span class="footer_wording">Follow us:</span> -->
+          <div class="col-md-6 col-sm-6">
+                <button class="btn btn-dribbble">
+                  <i class="fab fa-instagram"></i> Follow us on Instagram
+                </button>
+              </div>
         </div>
       </div>
     </div>
@@ -51,8 +29,8 @@
 
   &_icons {
     display: flex;
-    align-items: center; 
-    align-content: center; 
+    align-items: center;
+    align-content: center;
   }
 
   &_wording {
@@ -61,5 +39,9 @@
     font-size: large;
     margin-right: 20px;
   }
+}
+
+.abc {
+  text-align: center !important;
 }
 </style>
