@@ -1,10 +1,8 @@
 <template>
-    <transition :name="transitionName" mode="out-in">
-      <RouterView v-if="!loading" />
-    </transition>
-    <transition name="fade">
+    <Transition name="slide-up">
       <AnimatedSvg v-if="loading" />
-    </transition>
+    </Transition>
+    <RouterView v-if="!loading" />
 </template>
 
 <script setup>
@@ -19,6 +17,22 @@ onMounted(() => {
   // Simulate loading time
   setTimeout(() => {
     loading.value = false;
-  }, 3500); // Adjust the time based on your animation duration
+  }, 2800); // Adjust the time based on your animation duration
 });
 </script>
+
+<style>
+.slide-up-enter-active {
+  transition: transform 0.2s linear, opacity 0.3s linear;
+}
+
+.slide-up-leave-active {
+  transition: transform 0.8s cubic-bezier(1, 0.5, 0.8, 1), opacity 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  transform: translateY(-200px);
+  opacity: 0;
+}
+</style>

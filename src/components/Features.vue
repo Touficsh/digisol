@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-4">
-      <div class="services-title">What to do we offer</div>
+      <div class="services-title">Services provided at Digisol</div>
       <div class="row">
         <div class="col-md-3">
           <div class="info info-hover">
