@@ -13,7 +13,7 @@
       >
       <li class="nav-item test m-auto">
         <a
-          class="nav-link"
+          class="nav-link active"
           data-toggle="tab"
           role="tablist"
           @click="setProjectNumber(0)"
@@ -23,7 +23,7 @@
       </li>
         <li class="nav-item test m-auto">
           <a
-            class="nav-link active"
+            class="nav-link"
             data-toggle="tab"
             role="tablist"
             @click="setProjectNumber(1)"
