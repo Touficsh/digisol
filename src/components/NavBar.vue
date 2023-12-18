@@ -15,13 +15,13 @@
           >
           <img 
             src="../assets/img/digisol-white.png"
-            style="height: 50px; width: fit-content;"
+            style="height: 30px; width: fit-content;"
             />
             
           </a>
           <button
-            class="navbar-toggler"
             type="button"
+            class="navbar-toggler"
             data-toggle="collapse"
             data-target="#navigation"
             aria-controls="navigation-index"
@@ -60,15 +60,6 @@
             </div>
           </div>
           <ul class="navbar-nav ml-auto">
-            <!-- <li class="dropdown nav-item">
-              <a
-                class="nav-link"
-                data-toggle="dropdown"
-                @click="$emit('scroll', 'PageHeader')"
-              >
-                <i class="tim-icons icon-paper"></i> PageHeader
-              </a>
-            </li> -->
             <li class="nav-item">
               <a
                 class="dropdown nav-link"
@@ -79,15 +70,7 @@
                 <span class="nav-text">Services</span>
               </a>
             </li>
-            <!-- <li class="dropdown nav-item">
-              <a
-                class="nav-link"
-                data-toggle="dropdown"
-                @click="$emit('scroll', 'Services')"
-              >
-                <i class="tim-icons icon-paper"></i> Services
-              </a>
-            </li> -->
+
             <li class="dropdown nav-item">
               <a
                 class="nav-link"

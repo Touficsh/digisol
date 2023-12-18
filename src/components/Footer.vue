@@ -6,16 +6,18 @@
           <div class="title abc">
             <img
               src="../assets/img/digisol-white.png"
-              style="height: 50px; width: fit-content"
+              style="height: 30px; width: fit-content"
             />
           </div>
         </div>
         <div class="col-md-6 title abc">
           <!-- <span class="footer_wording">Follow us:</span> -->
           <div class="col-md-6 col-sm-6">
-                <button class="btn btn-dribbble">
+                <a class="btn btn-instagram"
+                href="https://www.instagram.com/digisol.innovations?igshid=YTQwZjQ0NmI0OA=="
+                >
                   <i class="fab fa-instagram"></i> Follow us on Instagram
-                </button>
+                </a>
               </div>
         </div>
       </div>

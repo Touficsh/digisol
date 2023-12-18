@@ -18215,8 +18215,8 @@ html {
   color: #e84842;
 }
 .btn.btn-instagram {
-  background: #125688;
-  background-image: linear-gradient(to bottom left, #125688, #061d2e, #125688);
+  background: #4c4c9b;
+  background-image: linear-gradient(to bottom left, #4c4c9b, #2a2a57, #4c4c9b);
   background-size: 210% 210%;
   background-position: top right;
   color: #ffffff;
@@ -18225,28 +18225,28 @@ html {
   background-repeat: space;
 }
 .btn.btn-instagram:focus, .btn.btn-instagram:active, .btn.btn-instagram:hover {
-  background-color: #1667a3;
-  background-image: linear-gradient(to bottom left, #125688, #061d2e, #125688) !important;
-  background-image: -moz-linear-gradient(to bottom left, #125688, #061d2e, #125688) !important;
+  background-color: #5858ad;
+  background-image: linear-gradient(to bottom left, #4c4c9b, #2a2a57, #4c4c9b) !important;
+  background-image: -moz-linear-gradient(to bottom left, #4c4c9b, #2a2a57, #4c4c9b) !important;
   color: #ffffff;
 }
 .btn.btn-instagram.btn-simple {
-  color: #1667a3;
+  color: #5858ad;
   background-color: transparent;
   background-image: none !important;
   box-shadow: none;
-  border-color: #1667a3;
+  border-color: #5858ad;
 }
 .btn.btn-instagram.btn-simple:hover, .btn.btn-instagram.btn-simple:focus, .btn.btn-instagram.btn-simple:active {
-  color: #1667a3;
-  border-color: #1667a3;
+  color: #5858ad;
+  border-color: #5858ad;
 }
 .btn.btn-instagram.btn-neutral {
-  color: #125688;
+  color: #4c4c9b;
   background-color: #ffffff;
 }
 .btn.btn-instagram.btn-neutral:hover, .btn.btn-instagram.btn-neutral:focus, .btn.btn-instagram.btn-neutral:active {
-  color: #1667a3;
+  color: #5858ad;
 }
 .btn.btn-reddit {
   background: #ff4500;
