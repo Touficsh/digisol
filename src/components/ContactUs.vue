@@ -97,7 +97,6 @@
       </div> -->
     <div
       class="contactus-1 section-image"
-      style="background-image: url('assets/img/contact1.jpg')"
     >
       <div class="container">
         <div class="row">
@@ -229,7 +228,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="text-center mt-4">
+                  <div class="text-center">
                     <button
                       type="submit"
                       :disabled="!isFormValid()"
@@ -250,7 +249,6 @@
 
 <script>
 import emailjs from 'emailjs-com';
-
 export default {
   data() {
     return {
