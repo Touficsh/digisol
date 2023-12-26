@@ -116,7 +116,7 @@
                 </p>
               </div>
             </div>
-            <div class="info info-horizontal">
+            <!-- <div class="info info-horizontal">
               <div class="icon icon-primary">
                 <i class="tim-icons icon-mobile"></i>
               </div>
@@ -128,7 +128,7 @@
                   Mon - Fri, 8:00-22:00
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col-md-5 ml-auto mr-auto">
             <div class="card abc card-contact card-raised">

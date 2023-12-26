@@ -15,7 +15,7 @@
           >
           <img 
             src="../assets/img/digisol-white.png"
-            style="height: 30px; width: 100px;"
+            style="height: 30px; width: 125px;"
             />
             
           </a>
